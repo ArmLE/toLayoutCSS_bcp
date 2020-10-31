@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/4d99efb271.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="">
+        <div class="wrapper bgcolor">
+            <div class="greyBackground">
+
+            </div>
+            <div class="menuResponsive wrapper">
+                <div class="closeMenu"></div>
+                <div class="navbarResponsive"></div>
+            </div>
+            <nav class="navbar flexRow">
+                <div class="containerNavbar flexRow">
+                    <div class="leftContainer flexRow">
+                        <!--
+                        <svg class="icon bcp-menu-f" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.125 7H2.875C2.392 7 2 6.552 2 6C2 5.448 2.392 5 2.875 5H21.125C21.608 5 22 5.448 22 6C22 6.552 21.608 7 21.125 7Z" fill="white"></path>
+                            <path d="M21.125 13H2.875C2.392 13 2 12.552 2 12C2 11.448 2.392 11 2.875 11H21.125C21.608 11 22 11.448 22 12C22 12.552 21.608 13 21.125 13Z" fill="white"></path>
+                            <path d="M21.125 19H2.875C2.392 19 2 18.552 2 18C2 17.448 2.392 17 2.875 17H21.125C21.608 17 22 17.448 22 18C22 18.552 21.608 19 21.125 19Z" fill="white"></path>
+                        </svg>
+                        -->
+                        <div class="menuContainer" id="menuToggle"> 
+                            <div class="menuBox">                   
+                                <div class="menuInner"></div>       
+                            </div>           
+                        </div>
+                        <div class="logoContainer" >
+                            <span class="logo">myMoney</span>
+                            <!--<img height="23" width="90" src="https://stbcpzonasegura.viabcp.com/assets/img/logo.svg" alt="">-->
+                        </div>
+                    </div>
+
+                    <div class="middleContainer">
+                        <ul class="containerMenuDesk flexRow">
+                            <li class="itemContainer">
+                                <div class="headerItemDesk">
+                                    <a href="#">
+                                        <div class="itemMenuDesk flexRow">
+                                            <span>INICIO</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemContainer">
+                                <div class="headerItemDesk">
+                                    <a href="#">
+                                        <div class="itemMenuDesk flexRow">
+                                            <span>TRANSFERENCIAS</span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemContainer">
+                                <div class="headerItemDesk">
+                                    <a href="#">
+                                        <div class="itemMenuDesk flexRow">
+                                            <span>PAGOS</span>
+                                            <i class="fas fa-chevron-down"></i>
+                                       </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemContainer">
+                                <div class="headerItemDesk">
+                                    <a href="#">
+                                        <div class="itemMenuDesk flexRow">
+                                            <span>MAS OPERACIONES</span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div class="rightContainer flexRow">
+                        <div class="favoriteButtom flexRow">
+                            <span><i class="fas fa-star"></i> Favoritos</span>
+                        </div>
+                        <div class="avatar">
+                            <div class="dropdown">
+                                <img alt=""  height="30" src="./img/user-b.svg" width="30" class="adaptImage">
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </nav>
+        </div>
+        <div class="wrapper content">
+            <div class="productSumary ">
+                <span>Ahorro Soles</span>
+                <div class="summaryHeader ">
+                    <span>ahorro soles</span>
+                    <button class=" btn btn-one">Estado de cuenta</button>
+                </div>
+            </div>
+            <div class="grid productDetails diverse">
+                <div class="cardContainer">
+                    <p class="blueTittle">Saldo disponible</p>
+                    <p>S/ <span>#.##</span></p>
+                    <span class="marginTop">Saldo contable <span>S/ #.##</span></span>
+                </div>
+                <div class="cardContainer">
+                    <p class="blueTittle">Número de Cuenta</p>
+                    <p><span>
+                        215-33046762-0-63
+                    </span></p>
+                </div>
+                <div class="cardContainer">
+                    <p class="blueTittle">Código de Cuenta Interbancaria</p>
+                    <p><span>
+                        00221513304676206329
+                    </span></p>
+                </div>
+            </div>
+            <div class="w-100 wrapper">
+                <div class="summaryHeader diverse">
+                    <p>Últimos movimientos</p>
+                    <button class="btn btn-one">
+                        Exportar
+                    </button>
+                </div>
+                <div class="summary-body"></div>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
